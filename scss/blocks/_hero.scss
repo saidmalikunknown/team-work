@@ -5,14 +5,39 @@
 .hero__title {
     font-size: 46px;
     color: white;
+    margin-top: 28px;
 }
 .hero__text {
     font-size: 14px;
     width: 530px;
+    margin: 28px 0 40px;
 }
 .btn {
     padding: 14px 42px;
     border: none;
     background-color: #C75E90;
     border-radius: 220px;
+    width: 208px;
+}
+.hero__wrapper {
+    @include d-flex(0, 170px);
+    padding: 10px 80px;
+}
+.hero__btn {
+    margin: 20px 0 50px;
+}
+.hero__minibox {
+    // width: 700px;
+    // height: 100px;
+    border-radius: 20px;
+    background-image: url('/assets/meow\ meow\ meow.png');
+    background-repeat: no-repeat;
+    background-size: 300px , 10px;
+}
+.minibox_sustext {
+    font-size: 12px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    padding-top:60px;
+    padding-left: 60px;
 }

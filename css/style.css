@@ -1,56 +1,47 @@
 @font-face {
   font-weight: 100;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Thin.woff) format(woff),
-    url(/fonts/Poppins-Thin.woff2) format(woff2);
+  src: url(/fonts/Poppins-Thin.woff) format(woff), url(/fonts/Poppins-Thin.woff2) format(woff2);
 }
 @font-face {
   font-weight: 200;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-ExtraLight.woff) format(woff),
-    url(/fonts/Poppins-ExtraLight.woff2) format(woff2);
+  src: url(/fonts/Poppins-ExtraLight.woff) format(woff), url(/fonts/Poppins-ExtraLight.woff2) format(woff2);
 }
 @font-face {
   font-weight: 300;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Light.woff) format(woff),
-    url(/fonts/Poppins-Light.woff2) format(woff2);
+  src: url(/fonts/Poppins-Light.woff) format(woff), url(/fonts/Poppins-Light.woff2) format(woff2);
 }
 @font-face {
   font-weight: 400;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Regular.woff) format(woff),
-    url(/fonts/Poppins-Regular.woff2) format(woff2);
+  src: url(/fonts/Poppins-Regular.woff) format(woff), url(/fonts/Poppins-Regular.woff2) format(woff2);
 }
 @font-face {
   font-weight: 500;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Medium.woff) format(woff),
-    url(/fonts/Poppins-Medium.woff2) format(woff2);
+  src: url(/fonts/Poppins-Medium.woff) format(woff), url(/fonts/Poppins-Medium.woff2) format(woff2);
 }
 @font-face {
   font-weight: 600;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-SemiBold.woff) format(woff),
-    url(/fonts/Poppins-SemiBold.woff2) format(woff2);
+  src: url(/fonts/Poppins-SemiBold.woff) format(woff), url(/fonts/Poppins-SemiBold.woff2) format(woff2);
 }
 @font-face {
   font-weight: 700;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Bold.woff) format(woff),
-    url(/fonts/Poppins-Bold.woff2) format(woff2);
+  src: url(/fonts/Poppins-Bold.woff) format(woff), url(/fonts/Poppins-Bold.woff2) format(woff2);
 }
 @font-face {
   font-weight: 800;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-ExtraBold.woff) format(woff),
-    url(/fonts/Poppins-ExtraBold.woff2) format(woff2);
+  src: url(/fonts/Poppins-ExtraBold.woff) format(woff), url(/fonts/Poppins-ExtraBold.woff2) format(woff2);
 }
 @font-face {
   font-weight: 900;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Black.woff) format(woff),
-    url(/fonts/Poppins-Black.woff2) format(woff2Poppin);
+  src: url(/fonts/Poppins-Black.woff) format(woff), url(/fonts/Poppins-Black.woff2) format(woff2Poppin);
 }
 * {
   padding: 0;
@@ -68,9 +59,9 @@ a {
 }
 
 body {
-  font-family: "Poppins";
+  font-family: "Poppin", sans-serif;
   color: white;
-  background-color: #1d1d1d;
+  background-color: #1D1D1D;
 }
 
 .container {
@@ -85,31 +76,9 @@ button {
 
 .header_a {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 12px;
 }
 
-.hero__first {
-  font-size: 14px;
-  color: #696969;
-}
-
-.hero__title {
-  font-size: 46px;
-  color: white;
-}
-
-.hero__text {
-  font-size: 14px;
-  width: 530px;
-}
-
-.btn {
-  padding: 14px 42px;
-  border: none;
-  background-color: #c75e90;
-  border-radius: 220px;
-}
 .header {
   padding: 40px 112px 129px 63px;
 }
@@ -136,8 +105,6 @@ button {
 }
 
 .btn {
-  width: 165px;
-  height: 45px;
   border-radius: 220px;
   background-color: #c75e90;
   color: white;
@@ -145,4 +112,56 @@ button {
   font-size: 12px;
   line-height: 18px;
   border-color: transparent;
-} /*# sourceMappingURL=style.css.map */
+}
+
+.hero__first {
+  font-size: 14px;
+  color: #696969;
+}
+
+.hero__title {
+  font-size: 46px;
+  color: white;
+  margin-top: 28px;
+}
+
+.hero__text {
+  font-size: 14px;
+  width: 530px;
+  margin: 28px 0 40px;
+}
+
+.btn {
+  padding: 14px 42px;
+  border: none;
+  background-color: #C75E90;
+  border-radius: 220px;
+  width: 208px;
+}
+
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: 0;
+  gap: 170px;
+  padding: 10px 80px;
+}
+
+.hero__btn {
+  margin: 20px 0 50px;
+}
+
+.hero__minibox {
+  border-radius: 20px;
+  background-image: url("/assets/meow meow meow.png");
+  background-repeat: no-repeat;
+  background-size: 300px, 10px;
+}
+
+.minibox_sustext {
+  font-size: 12px;
+  letter-spacing: 6px;
+  font-weight: 700;
+  padding-top: 60px;
+  padding-left: 60px;
+}/*# sourceMappingURL=style.css.map */
