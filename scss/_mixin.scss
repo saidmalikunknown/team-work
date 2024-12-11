@@ -1,0 +1,6 @@
+@mixin d-flex($a-g, $j-c, $gap) {
+	display: flex;
+	align-items: $a-g;
+	justify-content: $j-c;
+	gap: $gap;
+}
