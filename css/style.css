@@ -72,4 +72,26 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
+}
+
+.hero__first {
+  font-size: 14px;
+  color: #696969;
+}
+
+.hero__title {
+  font-size: 46px;
+  color: white;
+}
+
+.hero__text {
+  font-size: 14px;
+  width: 530px;
+}
+
+.btn {
+  padding: 14px 42px;
+  border: none;
+  background-color: #C75E90;
+  border-radius: 220px;
 }/*# sourceMappingURL=style.css.map */
