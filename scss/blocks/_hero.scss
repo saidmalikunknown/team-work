@@ -21,7 +21,7 @@
 }
 .hero__wrapper {
     @include d-flex(0, 170px);
-    padding: 10px 80px;
+    padding: 10px 20px;
 }
 .hero__btn {
     margin: 20px 0 50px;
@@ -40,4 +40,7 @@
     font-weight: 700;
     padding-top:60px;
     padding-left: 60px;
+}
+.minibox_text {
+    
 }
