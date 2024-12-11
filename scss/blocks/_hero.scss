@@ -12,13 +12,7 @@
     width: 530px;
     margin: 28px 0 40px;
 }
-.btn {
-    padding: 14px 42px;
-    border: none;
-    background-color: #C75E90;
-    border-radius: 220px;
-    width: 208px;
-}
+
 .hero__wrapper {
     @include d-flex(0, 170px);
     padding: 10px 80px;
