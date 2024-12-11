@@ -1,6 +1,6 @@
-@mixin d-flex($a-g, $j-c, $gap) {
+@mixin d-flex($j-c, $gap) {
 	display: flex;
-	align-items: $a-g;
+	align-items: center;
 	justify-content: $j-c;
 	gap: $gap;
 }
