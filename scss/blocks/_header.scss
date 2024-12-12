@@ -1,0 +1,42 @@
+.header_a {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.header {
+	padding: 40px 112px 129px 63px;
+}
+
+.header_img {
+	margin-right: 229px;
+}
+
+.header_ul {
+	display: flex;
+	gap: 64px;
+}
+
+.header_wrapper {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.display__img {
+	margin-left: 120px;
+	cursor: pointer;
+	margin-right: 12px;
+}
+
+.btn {
+	width: 165px;
+	height: 45px;
+	border-radius: 220px;
+	background-color: #c75e90;
+	color: white;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    border-color: transparent;
+}
