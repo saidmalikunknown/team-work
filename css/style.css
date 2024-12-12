@@ -106,6 +106,7 @@ button {
 }
 
 .btn {
+  padding: 14px 42px;
   border-radius: 220px;
   background-color: #c75e90;
   color: white;
@@ -150,14 +151,6 @@ button {
   font-size: 14px;
   width: 530px;
   margin: 28px 0 40px;
-}
-
-.btn {
-  padding: 14px 42px;
-  border: none;
-  background-color: #C75E90;
-  border-radius: 220px;
-  width: 208px;
 }
 
 .hero__wrapper {
@@ -247,5 +240,47 @@ button {
 .block_right {
   background-color: #8E345F;
   width: 990px;
-  border-radius: 200px;
+  height: 168;
+  border-radius: 200px 40px 40px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: 0;
+  gap: 40px;
+  padding: 54px 36px;
+}
+
+.block_email {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.block_phone {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.block_left {
+  display: flex;
+  align-items: center;
+  justify-content: 0;
+  gap: 40px;
+  padding-left: 36px;
+}
+
+.block_location {
+  width: 40px;
+  height: 40px;
+  background-color: #8E345F;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.block_img {
+  width: 40px;
+  height: 40px;
+  background-color: #C75E90;
+  border-radius: 50%;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
