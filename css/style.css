@@ -503,7 +503,10 @@ button {
 
 .rooms {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 95px;
+  padding: 79px 63px;
 }
 
 .img_room {
