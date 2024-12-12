@@ -286,6 +286,19 @@ button {
   padding: 10px;
 }
 
+.block_email-text {
+  font-size: 20px;
+}
+
+.block_phone-text {
+  font-size: 20px;
+}
+
+.block_text-loc {
+  font-size: 20px;
+  width: 350px;
+}
+
 .hero2__black-text {
   color: #696969;
   letter-spacing: 0.9px;
