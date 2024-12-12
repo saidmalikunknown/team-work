@@ -469,4 +469,68 @@ button {
 
 .care__cats-img {
   cursor: pointer;
+}
+
+.images {
+  background-color: #C75E90;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.rooms {
+  display: flex;
+  gap: 95px;
+}
+
+.img_room {
+  left: 4px;
+  bottom: 3px;
+  position: absolute;
+}
+
+.first_p {
+  color: #696969;
+  margin-bottom: 28px;
+}
+
+.room_h4 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 45px;
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.room_p2 {
+  margin-left: 80px;
+  font-size: 14px;
+  width: 450px;
+  margin-bottom: 35px;
+}
+
+.room_p1 {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.room_hr {
+  width: 642.5px;
+  color: rgba(128, 128, 128, 0.1294117647);
+  margin-bottom: 27px;
+}
+
+.room_p11 {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-bottom: 33px;
 }/*# sourceMappingURL=style.css.map */
