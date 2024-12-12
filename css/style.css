@@ -183,4 +183,29 @@ button {
   font-size: 20px;
   margin-bottom: 20px;
   margin-bottom: 33px;
+}
+
+.celebrate_first {
+  border: 10px solid red;
+  padding: 37px 0 0 42px;
+  margin-top: 112px;
+}
+
+.celebrate_p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #696969;
+}
+
+.celebrate_h4 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.celebrate_pp {
+  font-size: 14px;
+  color: white;
+  width: 862px;
+  height: 40px;
 }/*# sourceMappingURL=style.css.map */
