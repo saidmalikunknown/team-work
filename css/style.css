@@ -506,11 +506,12 @@ button {
   align-items: center;
   justify-content: center;
   gap: 95px;
-  padding: 79px 63px;
+  padding: 98px 63px;
 }
 
 .img_room {
-  left: 10px;
+  left: 8px;
+  top: 15px;
   position: absolute;
 }
 
@@ -542,7 +543,7 @@ button {
   margin-top: 20px;
   font-weight: 700;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
 .room_hr {
