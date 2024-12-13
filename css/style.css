@@ -188,7 +188,7 @@ button {
 }
 
 .minibox__pic {
-  background-color: #C75E90;
+  background-color: #c75e90;
   position: absolute;
   width: 50px;
   height: 50px;
@@ -198,10 +198,32 @@ button {
 }
 
 .hero__images {
-  background-image: url("/assets/bg.png");
-  background-repeat: no-repeat;
-  background-position: 1064px;
   position: relative;
+}
+
+.hero__images::before {
+  content: "";
+  width: 288px;
+  height: 288px;
+  background-image: url(/assets/slashes.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -70px;
+  left: -80px;
+  transform: rotate(94deg);
+  z-index: -1;
+}
+
+.hero__images::after {
+  content: "";
+  width: 288px;
+  height: 288px;
+  background-image: url(/assets/slashes.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -70px;
+  left: 290px;
+  z-index: -1;
 }
 
 .hero__first-img {
@@ -229,21 +251,20 @@ button {
 }
 
 .block {
-  background-color: #C75E90;
+  background-color: #c75e90;
   display: flex;
   align-items: center;
   justify-content: 0;
   gap: 10px;
   margin-top: 86px;
   border-radius: 40px;
-  width: 1300px;
 }
 
 .block_right {
-  background-color: #8E345F;
+  background-color: #8e345f;
   width: 990px;
   height: 168;
-  border-radius: 200px 80px 80px 200px;
+  border-radius: 200px 40px 40px 200px;
   display: flex;
   align-items: center;
   justify-content: 0;
@@ -272,23 +293,19 @@ button {
 }
 
 .block_location {
-  width: 60px;
-  height: 60px;
-  background-color: #8E345F;
+  width: 40px;
+  height: 40px;
+  background-color: #8e345f;
   border-radius: 50%;
   padding: 10px;
-  text-align: center;
-  font-size: 30px;
 }
 
 .block_img {
-  width: 60px;
-  height: 60px;
-  background-color: #C75E90;
+  width: 40px;
+  height: 40px;
+  background-color: #c75e90;
   border-radius: 50%;
   padding: 10px;
-  font-size: 30px;
-  text-align: center;
 }
 
 .block_email-text {
@@ -489,12 +506,12 @@ button {
   align-items: center;
   justify-content: center;
   gap: 95px;
-  padding: 79px 63px;
+  padding: 98px 63px;
 }
 
 .img_room {
-  left: 4px;
-  bottom: 3px;
+  left: 8px;
+  top: 15px;
   position: absolute;
 }
 
@@ -526,7 +543,7 @@ button {
   margin-top: 20px;
   font-weight: 700;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
 .room_hr {
@@ -795,12 +812,12 @@ button {
   align-items: center;
   justify-content: center;
   gap: 95px;
-  padding: 79px 63px;
+  padding: 98px 63px;
 }
 
 .img_room {
-  left: 4px;
-  bottom: 3px;
+  left: 8px;
+  top: 15px;
   position: absolute;
 }
 
@@ -832,7 +849,7 @@ button {
   margin-top: 20px;
   font-weight: 700;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
 }
 
 .room_hr {

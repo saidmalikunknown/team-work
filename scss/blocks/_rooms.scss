@@ -7,12 +7,12 @@
 }
 .rooms{
     @include d-flex(center, 95px);
-    padding: 79px 63px;
+    padding: 98px 63px;
     
 }
 .img_room{
-    left: 4px;
-    bottom: 3px;
+    left:8px;
+    top: 15px;
     position: absolute;
 }
 .first_p{
@@ -39,7 +39,7 @@
     margin-top: 20px;
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 }
 .room_hr{
     width: 642.5px;
