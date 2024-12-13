@@ -98,6 +98,7 @@
 	top: 474px;
 }
 .block {
+<<<<<<< HEAD
 	background-color: #c75e90;
 	@include d-flex(0, 10px);
 	margin-top: 86px;
@@ -110,6 +111,21 @@
 	border-radius: 200px 40px 40px 200px;
 	@include d-flex(0, 40px);
 	padding: 54px 36px;
+=======
+    background-color: #C75E90;
+    @include d-flex(0,10px);
+    margin-top: 86px;
+    border-radius:40px ;
+    width: 1300px;
+}
+.block_right {
+    background-color: #8E345F;
+    width: 990px;
+    height: 168;
+    border-radius: 200px 80px 80px 200px  ;
+    @include d-flex(0 , 40px);
+    padding: 54px 36px;
+>>>>>>> origin/main
 }
 .block_email {
 	display: flex;
@@ -127,6 +143,7 @@
 }
 
 .block_location {
+<<<<<<< HEAD
 	width: 40px;
 	height: 40px;
 	background-color: #8e345f;
@@ -139,6 +156,24 @@
 	background-color: #c75e90;
 	border-radius: 50%;
 	padding: 10px;
+=======
+    width: 60px;
+    height: 60px;
+    background-color: #8E345F;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.block_img {
+     width: 60px;
+    height: 60px;
+    background-color: #C75E90;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+>>>>>>> origin/main
 }
 .block_email-text {
 	font-size: 20px;
