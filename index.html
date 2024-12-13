@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>neko</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./assets/mini logo.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/mini logo.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
-    <!-- 1 odam headerni qvotti Umarov -->
     <header class="header">
       <div class="container">
         <div class="header_wrapper">
@@ -38,7 +45,6 @@
     </header>
 
     <main>
-      <!-- saidmalik start -->
       <section class="hero">
         <div class="container">
           <div class="hero__wrapper">
@@ -76,11 +82,7 @@
           </div>
           <div class="block">
             <div class="block_left">
-              <img
-                src="./assets/location-1.png"
-                alt=""
-                class="block_location"
-              />
+              <i class="block_location bi-geo-alt"></i>
               <p class="block_text-loc">
                 123 Meow Avenue. Kittyville, CA 90210 United States
               </p>
@@ -88,12 +90,12 @@
 
             <div class="block_right">
               <div class="block_phone">
-                <img src="./assets/phone.png" alt="" class="block_img" />
+                <i class="block_img bi-telephone"></i>
                 <p class="block_phone-text">(555) 555-5555</p>
               </div>
               <div class="block_email">
-                <img src="./assets/mail.png" alt="" class="block_img" />
-                <p class="block_email-text"></p>
+                <i class="block_img bi-envelope-fill"></i>
+                <p class="block_email-text">info@neko-inn.com</p>
               </div>
             </div>
           </div>
@@ -294,12 +296,262 @@
       <section class="pricing">
         <div class="container">
           <div class="price__top">
-            <p class="price__sustext">Transparent Rates for your purry companion  g</p>
+            <p class="price__sustext">
+              Transparent Rates for your purry companion
+            </p>
+            <h2 class="price__title">Pricing</h2>
+            <p class="price__text">
+              In our Pricing Section, transparency meets affordability. At
+              NekoInn, we believe in straightforward pricing, ensuring you have
+              peace of mind knowing exactly what to expect.
+            </p>
+          </div>
+          <div class="price__main">
+            <div class="price__ducal">
+              <div class="ducal-top">
+                <div class="ducal-first">
+                  <div class="ducal-text">Purr Ducal</div>
+                  <img src="./assets/toj.png" alt="" class="ducal-img" />
+                </div>
+                <h2 class="ducal-title">
+                  $160.99 <span class="ducal-spn">PER DAY</span>
+                </h2>
+              </div>
+              <ul class="price__menu">
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Standard Accommodation</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Basic Grooming</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Group Playtime</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Standard Meal Plan</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Daily Wellness Check</p>
+                </li>
+                <button class="btn menu-btn">BOOK NOW</button>
+              </ul>
+            </div>
+            <div class="price__imperial">
+              <div class="ducal-top">
+                <div class="ducal-first">
+                  <div class="imperial-text">Purr imperial</div>
+                  <img src="./assets/middle.png" alt="" class="ducal-img" />
+                </div>
+                <h2 class="ducal-title">
+                  $600.99 <span class="ducal-spn">PER DAY</span>
+                </h2>
+              </div>
+              <ul class="price__menu">
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Presidential Suite Accommodation</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Deluxe Spa Grooming Package</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Exclusive One-on-One Playtime</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Gourmet Meal Plan</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">24/7 Concierge Service</p>
+                </li>
+                <button class="btn menu-btn active">BOOK NOW</button>
+              </ul>
+            </div>
+            <div class="price__ducal">
+              <div class="ducal-top">
+                <div class="ducal-first">
+                  <div class="ducal-text">Purr royal</div>
+                  <img
+                    src="./assets/third crown.png"
+                    alt=""
+                    class="ducal-img"
+                  />
+                </div>
+                <h2 class="ducal-title">
+                  $299.99 <span class="ducal-spn">PER DAY</span>
+                </h2>
+              </div>
+              <ul class="price__menu">
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Luxury Suite Accommodation</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Deluxe Grooming Package</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Private Playtime</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">Premium Meal Plan</p>
+                </li>
+                <li class="price__item">
+                  <img
+                    src="./assets/check-circle.png"
+                    alt=""
+                    class="menu-img"
+                  />
+                  <p class="menu-spn">VIP Wellness Check</p>
+                </li>
+                <button class="btn menu-btn">BOOK NOW</button>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
     </main>
-  </body>
+ 
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__news">
+        <img src="./assets/mini logo.png" alt="" class="news_img" />
+        <div class="news_minibox">
+          <p class="news_text">stay in touch</p>
+          <h3 class="news_title">Newsletter</h3>
+        </div>
+      </div>
+      <form action="https://echo.htmlacademy.ru" class="form">
+        <label class="news_label" for="user-id">E M A I L</label>
+        <input
+          class="news_input"
+          type="email"
+          name="user-email"
+          id="user-id"
+          placeholder="Eg. janedoe@gmail.com"
+        />
+        <button class="news_btn">
+          <i class="news_icon bi-envelope"></i>
+        </button>
+      </form>
+    </div>
+    <hr class="top_hr">
+    <div class="footer__main">
+        <div class="footer__left">
+          <div class="footer__left_box">
+            <i class="bi bi-geo-alt"></i>  
+            <div class="footer_mini">
+              <h4 class="mini_title">Pay Us A Visit</h4>
+              <p class="mini_text">123 Meow Avenue Kittyville, CA 90210United States</p>
+            </div>          
+          </div>
+          <div class="footer__left_box">
+            <i class="bi bi-telephone"></i>
+            <div class="footer_mini">
+              <h4 class="mini_title">Give Us A Call</h4>
+              <p class="mini_text">(555) 555-5555</p>
+            </div>          
+          </div>
+          <div class="footer__left_box">
+            <i class="bi bi-envelope"></i>
+            <div class="footer_mini">
+              <h4 class="mini_title">Send Us A Message</h4>
+              <p class="mini_text">info@neko-inn.com</p>
+            </div>          
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer_right">
+            <div class="right_first">
+              <h4 class="right_first-title">NekoInn Plans</h4>
+                <ul class="right_menu">
+                  <li class="right_item">Purr Ducal</li>
+                  <li class="right_item">Purr Royal</li>
+                  <li class="right_item">Purr Imperial</li>
+                </ul>
+            </div>
+            <div class="right_second">
+              <h3 class="secon_title">Socialize With NekoInn</h3>
+              <i class="bii bi-facebook"></i>
+              <i class="bii bi-twitter-x"></i>
+              <i class="bii bi-apple"></i>
+              <i class="bii bi-youtube"></i>
+              <i class="bii bi-instagram"></i>
+            </div>
+          </div>
+          <hr class="right_hr">
+          <p class="right_bottom-text">2024 © COPYRIGHT - NEKOINN A 5 STAR PURR HOTEL</p>
+        </div>
+    </div>
+  </div>
+</footer>
+ </body>
 </html>
-
-
