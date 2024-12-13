@@ -1,56 +1,47 @@
 @font-face {
   font-weight: 100;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Thin.woff) format(woff),
-    url(/fonts/Poppins-Thin.woff2) format(woff2);
+  src: url(/fonts/Poppins-Thin.woff) format(woff), url(/fonts/Poppins-Thin.woff2) format(woff2);
 }
 @font-face {
   font-weight: 200;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-ExtraLight.woff) format(woff),
-    url(/fonts/Poppins-ExtraLight.woff2) format(woff2);
+  src: url(/fonts/Poppins-ExtraLight.woff) format(woff), url(/fonts/Poppins-ExtraLight.woff2) format(woff2);
 }
 @font-face {
   font-weight: 300;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Light.woff) format(woff),
-    url(/fonts/Poppins-Light.woff2) format(woff2);
+  src: url(/fonts/Poppins-Light.woff) format(woff), url(/fonts/Poppins-Light.woff2) format(woff2);
 }
 @font-face {
   font-weight: 400;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Regular.woff) format(woff),
-    url(/fonts/Poppins-Regular.woff2) format(woff2);
+  src: url(/fonts/Poppins-Regular.woff) format(woff), url(/fonts/Poppins-Regular.woff2) format(woff2);
 }
 @font-face {
   font-weight: 500;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Medium.woff) format(woff),
-    url(/fonts/Poppins-Medium.woff2) format(woff2);
+  src: url(/fonts/Poppins-Medium.woff) format(woff), url(/fonts/Poppins-Medium.woff2) format(woff2);
 }
 @font-face {
   font-weight: 600;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-SemiBold.woff) format(woff),
-    url(/fonts/Poppins-SemiBold.woff2) format(woff2);
+  src: url(/fonts/Poppins-SemiBold.woff) format(woff), url(/fonts/Poppins-SemiBold.woff2) format(woff2);
 }
 @font-face {
   font-weight: 700;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Bold.woff) format(woff),
-    url(/fonts/Poppins-Bold.woff2) format(woff2);
+  src: url(/fonts/Poppins-Bold.woff) format(woff), url(/fonts/Poppins-Bold.woff2) format(woff2);
 }
 @font-face {
   font-weight: 800;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-ExtraBold.woff) format(woff),
-    url(/fonts/Poppins-ExtraBold.woff2) format(woff2);
+  src: url(/fonts/Poppins-ExtraBold.woff) format(woff), url(/fonts/Poppins-ExtraBold.woff2) format(woff2);
 }
 @font-face {
   font-weight: 900;
   font-family: "Poppin";
-  src: url(/fonts/Poppins-Black.woff) format(woff),
-    url(/fonts/Poppins-Black.woff2) format(woff2Poppin);
+  src: url(/fonts/Poppins-Black.woff) format(woff), url(/fonts/Poppins-Black.woff2) format(woff2Poppin);
 }
 * {
   padding: 0;
@@ -70,7 +61,7 @@ a {
 body {
   font-family: "Poppin", sans-serif;
   color: white;
-  background-color: #1d1d1d;
+  background-color: #1D1D1D;
 }
 
 .container {
@@ -508,7 +499,7 @@ button {
 }
 
 .images {
-  background-color: #c75e90;
+  background-color: #C75E90;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -717,7 +708,7 @@ input::placeholder {
   border-radius: 50%;
   text-align: center;
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 
 .btn2 {
@@ -778,7 +769,7 @@ input::placeholder {
 }
 
 .ducal-text {
-  color: #c75e90;
+  color: #C75E90;
 }
 
 .ducal-first {
@@ -810,7 +801,7 @@ input::placeholder {
 }
 
 .price__imperial {
-  background-color: #c75e90;
+  background-color: #C75E90;
   width: 460px;
   padding: 27px 65px;
   border-radius: 40px;
@@ -822,7 +813,7 @@ input::placeholder {
 }
 
 .active {
-  background-color: #8e345f;
+  background-color: #8E345F;
 }
 
 .price__main {
@@ -844,7 +835,7 @@ input::placeholder {
 }
 
 .footer__top {
-  border-radius: 220px 220px 0 0;
+  border-radius: 150px 150px 0 0;
   background-color: #161616;
   display: flex;
   align-items: center;
@@ -956,7 +947,7 @@ input::placeholder {
   border-radius: 50%;
   margin: 10px;
   width: 20px;
-  height: 20px;
+  height: 20pxpx;
 }
 
 .secon_title {
@@ -982,4 +973,4 @@ input::placeholder {
 
 .right_bottom-text {
   margin-top: 26px;
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
