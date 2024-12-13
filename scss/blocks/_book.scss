@@ -1,0 +1,161 @@
+.book__wrapper {
+	width: 1312px;
+	height: 1108px;
+	background-color: #161616;
+	border-radius: 40px;
+	margin-top: 78px;
+}
+
+.book__black-title {
+	font-size: 12px;
+	line-height: 18px;
+	text-align: center;
+	color: #696969;
+	padding-top: 97px;
+}
+
+.book__title {
+	font-weight: 700;
+	line-height: 60px;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 23px;
+}
+
+.book__info {
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 71px;
+}
+
+.book__name {
+	width: 535px;
+	height: 77px;
+	border: 1px solid #ffffff;
+	border-radius: 40px;
+	background-color: transparent;
+}
+
+.book__name2 {
+	margin-left: 111px;
+}
+
+.book__tel {
+	margin-left: 111px;
+	margin-top: 47px;
+}
+
+.book__email {
+	margin-left: 20px;
+}
+
+.book__cat {
+	margin-left: 20px;
+	margin-top: 47px;
+}
+
+.book__input {
+	position: relative;
+}
+
+input::placeholder {
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+	padding: 36px 0 0 42px;
+}
+
+.book-text1 {
+	font-weight: 700;
+	font-size: 10px;
+	line-height: 15px;
+	color: #696969;
+	letter-spacing: 2px;
+	position: absolute;
+    text-transform: uppercase;
+}
+
+.name {
+	top: 11px;
+	left: 153px;
+}
+
+.email {
+	top: 11px;
+	left: 713px;
+}
+
+.photo {
+	left: 153px;
+	top: 135px;
+}
+
+.cat-name {
+	top: 135px;
+	left: 713px;
+}
+
+.book__date {
+	width: 1090px;
+	height: 77px;
+	border: 1px solid #ffffff;
+	border-radius: 40px;
+	background-color: transparent;
+	color: white;
+	margin-left: 111px;
+	margin-top: 47px;
+}
+
+.date{
+    top: 259px;
+    left: 153px;
+}
+
+.pet{
+    left: 153px;
+    top: 380px;
+}
+
+.plan{
+    left: 153px;
+    top: 505px;
+}
+
+.date-img{
+    position: absolute;
+    top: 259px;
+    left: 1131px;
+    width: 54px;
+    height: 54px;
+    background-color: #c75e90;
+    border-radius: 50%;
+    text-align: center;
+    object-fit: contain;
+}
+
+.btn2{
+	margin-left: 538px;
+	width: 239px;
+	height: 56px;
+	margin-top: 57px;
+}
+
+.plan-img{
+	position: absolute;
+	top: 510px;
+	left: 1130px;
+	width: 45px;
+	height: 45px;
+}
+
+.plan-img:hover{
+	transform: scale(1.2);
+	transition: 0.1s linear;
+}
+
+.date-img:hover{
+	transform: scale(1.2);
+	transition: 0.1s linear;
+}
