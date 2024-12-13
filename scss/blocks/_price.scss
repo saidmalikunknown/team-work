@@ -1,64 +1,76 @@
 .price__sustext {
-    font-size: 12px;
-    color: #696969;
-    margin-top: 67px;
+	font-size: 12px;
+	color: #696969;
+	margin-top: 67px;
 }
 .price__title {
-    font-size: 40px;
-    font-weight: 900;
-    margin: 21px 0 18px;
+	font-size: 40px;
+	font-weight: 900;
+	margin: 21px 0 18px;
 }
+
 .price__text {
-    width: 646px;
-    font-size: 14px;
-    margin: auto;
-    margin-bottom: 75px;
+	width: 646px;
+	font-size: 14px;
+	margin: auto;
+	margin-bottom: 75px;
 }
 .price__top {
-    text-align: center;
+	text-align: center;
 }
 .ducal-spn {
-    font-size: 14px;
+	font-size: 14px;
 }
 .ducal-title {
-    font-size: 40px;
-    margin: 24px 0 49px;
+	font-size: 40px;
+	margin: 18px 7 44px 41px;
+
 }
 .ducal-text {
-    color: #C75E90;
+	color: #c75e90;
+    font-weight: 700;
+    line-height: 24px
 }
 .ducal-first {
-    @include d-flex(0 ,136px);
+	@include d-flex(flex-start, 136px);
 }
+
+.price__menu{
+display: flex;
+flex-direction: column;
+}
+
+
 .price__item {
-    @include d-flex(0, 5px);
-    margin-top: 21px;
+	@include d-flex(flex-start, 5px);
+	margin-top: 21px;
 }
 .price__ducal {
-    background-color: #161616;
-    width: 472px;
-    padding: 28px 65px;
-    border-radius: 40px;
-    height: 590px;
+	background-color: #161616;
+	width: 475px;
+	padding: 28px 65px;
+	border-radius: 40px;
+	height: 590px;
 }
 .menu-btn {
-    margin-top:20px;
-    width: 236px;
+	margin-top: 20px;
+	width: 236px;
 }
 .price__imperial {
-    background-color: #C75E90;
-    width: 460px;
-    padding: 27px 65px;
-    border-radius: 40px;
-    height: 644px;
+	background-color: #c75e90;
+	width: 521px;
+	padding: 27px 65px;
+	border-radius: 40px;
+	height: 644px;
 }
 .imperial-text {
-    color: white;
+	font-weight: 700;
+	line-height: 24px;
 }
 .active {
-    background-color: #8E345F  ;
+	background-color: #8e345f;
 }
 .price__main {
-    @include d-flex(0 , 0);
-    padding: 65px;
+	@include d-flex(0, 0);
+	padding: 65px;
 }

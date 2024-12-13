@@ -1,48 +1,78 @@
 .they__sub-title {
-  margin-left: 470px;
-  font-weight: 700;
-  font-size: 40px;
-  margin-top: 25px;
+	margin-left: 470px;
+	font-weight: 700;
+	font-size: 40px;
+	margin-top: 25px;
 }
 .celebraye_p {
-  color: #696969;
-  margin-left: 507px;
-  margin-top: 112px;
+	color: #696969;
+	margin-left: 507px;
+	margin-top: 112px;
 }
 .they__text {
-  width: 868px;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 83px;
+	width: 868px;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 83px;
 }
 
 .they__wrapper {
-  display: flex;
-  gap: 40px;
+	display: flex;
+	gap: 40px;
 }
 .they__content {
-  width: 424px;
-  background-color: #161616;
-  padding: 37px;
-  border-radius: 20px;
+	width: 424px;
+	background-color: #161616;
+	padding: 37px;
+	border-radius: 20px;
 }
 .content__text {
-  width: 300px;
+	width: 300px;
 }
 
 .content__wrapper {
-  display: flex;
-  margin-top: 26px;
-  align-items: center;
-  gap: 22px;
+	display: flex;
+	margin-top: 26px;
+	align-items: center;
+	gap: 22px;
 }
 .they__wrapper {
-  width: 423px;
-  border-radius: 40px;
-  padding: 37px 0 18px 42px;
+	width: 423px;
+	border-radius: 40px;
+	padding: 37px 0 18px 42px;
 }
 .wrapper__img-second {
-  border: 5px #c75e90 solid;
-  border-radius: 50%;
+	border: 5px #c75e90 solid;
+	border-radius: 50%;
+}
+
+.they-wrapper {
+	position: relative;
+}
+
+.they-left__arrow {
+	position: absolute;
+	width: 51px;
+	height: 51px;
+	background-color: #c75e90;
+	border-radius: 40px;
+	text-align: center;
+	object-fit: contain;
+	bottom: 250px;
+	left: 20px;
+	cursor: pointer;
+}
+
+.they-right__arrow {
+	position: absolute;
+	width: 51px;
+	height: 51px;
+	background-color: #c75e90;
+	border-radius: 40px;
+	text-align: center;
+	object-fit: contain;
+	bottom: 250px;
+	right: 130px;
+	cursor: pointer;
 }
