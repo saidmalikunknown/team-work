@@ -4,6 +4,7 @@
 	background-color: #161616;
 	border-radius: 40px;
 	margin-top: 78px;
+	margin-bottom: 122px;
 }
 
 .book__black-title {
@@ -74,7 +75,7 @@ input::placeholder {
 	color: #696969;
 	letter-spacing: 2px;
 	position: absolute;
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .name {
@@ -108,41 +109,41 @@ input::placeholder {
 	margin-top: 47px;
 }
 
-.date{
-    top: 259px;
-    left: 153px;
+.date {
+	top: 259px;
+	left: 153px;
 }
 
-.pet{
-    left: 153px;
-    top: 380px;
+.pet {
+	left: 153px;
+	top: 380px;
 }
 
-.plan{
-    left: 153px;
-    top: 505px;
+.plan {
+	left: 153px;
+	top: 505px;
 }
 
-.date-img{
-    position: absolute;
-    top: 259px;
-    left: 1131px;
-    width: 54px;
-    height: 54px;
-    background-color: #c75e90;
-    border-radius: 50%;
-    text-align: center;
-    object-fit: contain;
+.date-img {
+	position: absolute;
+	top: 259px;
+	left: 1131px;
+	width: 54px;
+	height: 54px;
+	background-color: #c75e90;
+	border-radius: 50%;
+	text-align: center;
+	object-fit: contain;
 }
 
-.btn2{
+.btn2 {
 	margin-left: 538px;
 	width: 239px;
 	height: 56px;
 	margin-top: 57px;
 }
 
-.plan-img{
+.plan-img {
 	position: absolute;
 	top: 510px;
 	left: 1130px;
@@ -150,12 +151,12 @@ input::placeholder {
 	height: 45px;
 }
 
-.plan-img:hover{
+.plan-img:hover {
 	transform: scale(1.2);
 	transition: 0.1s linear;
 }
 
-.date-img:hover{
+.date-img:hover {
 	transform: scale(1.2);
 	transition: 0.1s linear;
 }

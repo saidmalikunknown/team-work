@@ -294,15 +294,9 @@ button {
 }
 
 .block_location {
-<<<<<<< HEAD
-  width: 40px;
-  height: 40px;
-  background-color: #8e345f;
-=======
   width: 60px;
   height: 60px;
-  background-color: #8E345F;
->>>>>>> origin/main
+  background-color: #8e345f;
   border-radius: 50%;
   padding: 10px;
   text-align: center;
@@ -310,15 +304,9 @@ button {
 }
 
 .block_img {
-<<<<<<< HEAD
-  width: 40px;
-  height: 40px;
-  background-color: #c75e90;
-=======
   width: 60px;
   height: 60px;
-  background-color: #C75E90;
->>>>>>> origin/main
+  background-color: #c75e90;
   border-radius: 50%;
   padding: 10px;
   font-size: 30px;
@@ -577,13 +565,13 @@ button {
   margin-bottom: 33px;
 }
 
-<<<<<<< HEAD
 .book__wrapper {
   width: 1312px;
   height: 1108px;
   background-color: #161616;
   border-radius: 40px;
   margin-top: 78px;
+  margin-bottom: 122px;
 }
 
 .book__black-title {
@@ -746,7 +734,8 @@ input::placeholder {
 .date-img:hover {
   transform: scale(1.2);
   transition: 0.1s linear;
-=======
+}
+
 .price__sustext {
   font-size: 12px;
   color: #696969;
@@ -984,5 +973,4 @@ input::placeholder {
 
 .right_bottom-text {
   margin-top: 26px;
->>>>>>> origin/main
 }/*# sourceMappingURL=style.css.map */
