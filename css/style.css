@@ -729,6 +729,10 @@ input::placeholder {
   padding: 36px 0 0 42px;
 }
 
+input {
+  color: white;
+}
+
 .book-text1 {
   font-weight: 700;
   font-size: 10px;
